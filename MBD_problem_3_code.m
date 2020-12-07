@@ -2,7 +2,7 @@ clearvars;
 % close all
 h2r = 2*pi;
 tStop = 1;
-Fs = 48000;
+Fs =5000;
 dt=1/Fs;
 t = (0:dt:tStop)';
 %%
