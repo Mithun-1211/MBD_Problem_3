@@ -2,7 +2,7 @@ clearvars;
 % close all
 h2r = 2*pi;
 tStop = 1;
-Fs =5000;
+Fs =1050;
 dt=1/Fs;
 t = (0:dt:tStop)';
 %%
@@ -18,3 +18,4 @@ figure(1);
 plot(t,noise)
 figure(2);
 plot(tout,yout);
+
